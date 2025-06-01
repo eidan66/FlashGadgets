@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Order, type OrderData } from '@/entities/Order';
 import { useAppContext, type AppContextType } from '@/components/Layout';
